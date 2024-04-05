@@ -1,4 +1,4 @@
-#include "../include/SDLWindow.h"
+#include "SDLWindow.h"
 #include <SDL.h>
 #include <cstdio>
 
