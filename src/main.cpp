@@ -1,4 +1,4 @@
-#include "../include/SDLWindow.h"
+#include "SDLWindow.h"
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
