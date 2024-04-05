@@ -19,7 +19,10 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMAKE")
 set(SOURCE_FILES src/main.cpp
         tests/test_main.cpp
         src/SDLWindow.cpp
-        include/SDLWindow.h)
+        src/SDLWindow.h
+        src/bitboard.cpp
+        src/bitboard.h
+        src/types.h)
 
 Message("")
 Message( STATUS "SOURCE entry point : " ${SOURCE_FILES} )
