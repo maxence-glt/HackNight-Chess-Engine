@@ -4,5 +4,6 @@
 #include <cstdint>
 
 typedef uint64_t Bitboard;
+typedef uint64_t U64;
 
 #endif
