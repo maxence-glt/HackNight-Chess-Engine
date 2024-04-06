@@ -1,0 +1,10 @@
+#ifndef HACKNIGHT_CHESS_ENGINE_PAWN_H
+#define HACKNIGHT_CHESS_ENGINE_PAWN_H
+
+struct pawn {
+
+
+
+};
+
+#endif //HACKNIGHT_CHESS_ENGINE_PAWN_H

@@ -1,0 +1,8 @@
+#ifndef HACKNIGHT_CHESS_ENGINE_KING_H
+#define HACKNIGHT_CHESS_ENGINE_KING_H
+
+//#include "../types.h"
+
+
+
+#endif //HACKNIGHT_CHESS_ENGINE_KING_H
