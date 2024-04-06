@@ -23,7 +23,13 @@ set(SOURCE_FILES src/main.cpp
         src/bitboard.cpp
         src/bitboard.h
         src/types.h
-        tests/bitboard_test.cpp)
+        tests/bitboard_test.cpp
+        src/pieces/pawn.h
+        src/pieces/king.h
+        src/pieces/knight.h
+        src/pieces/rook.h
+        src/pieces/bishop.h
+        src/pieces/queen.h)
 
 Message("")
 Message( STATUS "SOURCE entry point : " ${SOURCE_FILES} )

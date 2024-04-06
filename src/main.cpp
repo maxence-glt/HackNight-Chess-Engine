@@ -7,9 +7,10 @@ const int SCREEN_HEIGHT = 480;
 
 int main() {
     // simple window function for SDL
-    windowMain();
+//    windowMain();
     ChessBoard test = {};
     initPieceBoards(test);
     printChessBoard(test);
-    printBitboard(test.pawns);
+    printBitboard(test.knights & test.allWhitePieces);
+    std::cout << '\n';
 }
