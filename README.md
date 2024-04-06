@@ -26,9 +26,10 @@ This guide assumes the use of yay, but the same general process applies for othe
 #### JetBrains CLion Set Up
 - Install [JetBrains CLion C++ IDE](https://www.jetbrains.com/clion/): `$ yay -S aur/clion`
 - Activate your CLion install  
-   > [Free educational licenses](https://www.jetbrains.com/community/education/#students) are avalible to students 
+   > [Free educational licenses](https://www.jetbrains.com/community/education/#students) are available to students 
 - Add the cloned repo to CLion as a new project
+- In `File | Settings | Build, Execution, Deployment | Toolchains` set CMake directory to `/usr/bin/cmake`
 
 #### Install Dependencies
-- SDL Packages: `$ yay -S extra/sdl2 extra/sdl2_image extra/sdl2_mixer extra/sdl2_ttf`  
-- CMake: `i have no idea dude`
+- SDL Packages: `$ yay -S extra/sdl2 extra/sdl2_image extra/sdl2_mixer extra/sdl2_ttf`
+- CMake: `$ yay -S extra/cmake`
