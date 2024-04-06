@@ -10,7 +10,38 @@
 #define HACKNIGHT_CHESS_ENGINE_BITBOARD_H
 
 #include "types.h"
+#include "iostream"
 
-Bitboard holder;
+struct ChessBoard {
+    /*
+    Bitboard whiteRooks;
+    Bitboard whitePawns;
+    Bitboard whiteKnights;
+    Bitboard whiteBishops;
+    Bitboard whiteQueens;
+    Bitboard whiteKing;
+
+    Bitboard blackPawns;
+    Bitboard blackRooks;
+    Bitboard blackKnights;
+    Bitboard blackBishops;
+    Bitboard blackQueens;
+    Bitboard blackKing;
+    */
+
+    Bitboard rooks;
+    Bitboard pawns;
+    Bitboard knights;
+    Bitboard bishops;
+    Bitboard queens;
+    Bitboard kings;
+
+    Bitboard allWhitePieces;
+    Bitboard allBlackPieces;
+    Bitboard allPieces;
+};
+
+void initPieceBoards(ChessBoard&);
+void printBoard(const ChessBoard&);
 
 #endif

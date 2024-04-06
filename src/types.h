@@ -3,6 +3,6 @@
 
 #include <cstdint>
 
-using Bitboard = uint64_t;
+typedef uint64_t Bitboard;
 
-#endif //HACKNIGHT_CHESS_ENGINE_TYPES_H
+#endif
