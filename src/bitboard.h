@@ -13,22 +13,6 @@
 #include <iostream>
 
 struct ChessBoard {
-    /*
-    Bitboard whiteRooks;
-    Bitboard whitePawns;
-    Bitboard whiteKnights;
-    Bitboard whiteBishops;
-    Bitboard whiteQueens;
-    Bitboard whiteKing;
-
-    Bitboard blackPawns;
-    Bitboard blackRooks;
-    Bitboard blackKnights;
-    Bitboard blackBishops;
-    Bitboard blackQueens;
-    Bitboard blackKing;
-    */
-
     Bitboard rooks;
     Bitboard pawns;
     Bitboard knights;
