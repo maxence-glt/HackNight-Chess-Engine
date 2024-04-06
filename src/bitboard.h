@@ -10,7 +10,7 @@
 #define HACKNIGHT_CHESS_ENGINE_BITBOARD_H
 
 #include "types.h"
-#include "iostream"
+#include <iostream>
 
 struct ChessBoard {
     /*
@@ -42,6 +42,7 @@ struct ChessBoard {
 };
 
 void initPieceBoards(ChessBoard&);
-void printBoard(const ChessBoard&);
+void printChessBoard(const ChessBoard&);
+void printBitboard(Bitboard);
 
 #endif

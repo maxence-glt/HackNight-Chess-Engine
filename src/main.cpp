@@ -10,6 +10,6 @@ int main() {
 //    windowMain();
     ChessBoard test = {};
     initPieceBoards(test);
-    printBoard(test);
-
+    printChessBoard(test);
+    printBitboard(test.pawns);
 }

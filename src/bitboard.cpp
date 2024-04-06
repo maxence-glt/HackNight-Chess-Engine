@@ -1,4 +1,5 @@
 #include "bitboard.h"
+#include <bitset>
 
 void initPieceBoards(ChessBoard& board) {
     /*
@@ -45,12 +46,12 @@ std::string printBoardPiece(const ChessBoard& refBoard, const Bitboard& tempBoar
     return "_";
 }
 
-void printBoard(const ChessBoard& board) {
+void printChessBoard(const ChessBoard& board) {
     Bitboard temp = 1;
     temp = temp << 63;
 
     for (int col = 0; col <= 7; col++) {
-        std::string out = "";
+        std::string out;
         for (int row = 0; row <= 7; row++) {
             out = printBoardPiece(board, temp) + " " + out;
 
@@ -66,3 +67,10 @@ void printBoard(const ChessBoard& board) {
     }
 }
 
+void printBitboard(Bitboard board) {
+    for (int i = 0; i < 8; i++) {
+        std::bitset<8> x(board);
+        std::cout << x << '\n';
+        board = board >> 8;
+    }
+}
